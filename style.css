@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  height: 100vh;
+  background-color: black;
+}
+
+main {
+  display: grid;
+  /* margin: auto; */
+  place-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
